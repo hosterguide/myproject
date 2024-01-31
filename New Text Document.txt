@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Download BGMI Latest Version </title>
+	<link rel="stylesheet" target="_blank" href="style.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8" />
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=uEjTRcIJ8cnMklO8fyrZt5Ntw_1DbdwNZvl2vilSWe7jslDi_A5UrW7YXLgo6_txiq-DZ9OkbxKL5Z0Oz8X76w" charset="UTF-8"></script><script src="timer.js"></script>
+</head>
+<body>
+	<a href="https://bgmiapk.com"><img class="logo center" src="https://bgmiapk.com/wp-content/uploads/2021/06/BGMIApk-Logo.png" alt="BGMIApk" title="BGMIApk-Logo" /></a>
+
+	<section>
+		<h2 class="title" style="font-size: 20px;">Download BGMI Latest Version </h2>
+		<div class="timer">Latest Version Link <strong > Updated </strong></div>
+		<br>
+			
+			<h3>How To Download & Install BGMI</h3>
+			<center>
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9891771967603826"
+     crossorigin="anonymous"></script>
+<!-- Script Ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9891771967603826"
+     data-ad-slot="9661155061"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+			</center>
+			<div class="container">
+				<p>Once the timer finishes you will receive a direct download button, so click on it to start the downloading.</p><br>
+				<ol><li>Enable Unknown Sources.</li><li>Download the file from the download links available.</li><li>Locate the file and install the App on your device.</li><li>Download all Resource Packs and Maps.</li><li>Once it is completed enjoy the game</li></ol>
+			</div>
+		<div id="countdown" class="time10">[the div for countdown timer]</div>
+		<div id="display" style="display:none">
+		<form action="https://bgmiapk.com/download-bgmi-apk-file/" target="_blank" rel="noreferrer noopener">
+			<button class="submit" onclick="window.location.href="q2.html">Download Now</button>
+		</form>
+		</div>
+	<br>
+
+	</section>
+
+
+	<script type="text/javascript">
+		var timeout, interval
+		var threshold = 9000;
+		var secondsleft = threshold;
+		
+		window.onload = function() {
+			startschedule();
+		}
+		
+		function startChecking() {
+			secondsleft -= 1000;
+			document.querySelector("#countdown").innerHTML = Math.abs((secondsleft / 1000));
+			if (secondsleft == 0) {
+				//document.getElementById("clickme").style.display="";
+				clearInterval(interval);
+				document.querySelector("#countdown").style.display = "none";
+				document.querySelector("#display").style.display = "";
+			}
+		}
+		
+		function startschedule() {
+			clearInterval(interval);
+			secondsleft = threshold;
+			document.querySelector("#countdown").innerHTML =Math.abs((secondsleft / 1000));
+			interval = setInterval(function() {
+				startChecking();
+			}, 1000)
+		}
+		
+		function resetTimer() {
+			startschedule();
+		}
+		</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-199731877-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-199731877-1');
+</script>
+
+</body>
+</html>
